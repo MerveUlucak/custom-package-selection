@@ -1,0 +1,66 @@
+body {
+  font-family: __gordita_2929b8, __gordita_Fallback_2929b8, Arial, sans-serif;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header-beije h1 {
+  font-size: 24px;
+  color: #eb6c10;
+}
+.header-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 200px;
+  flex-shrink: 1;
+  gap: 150px;
+  list-style-type: none;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 200px;
+  flex-shrink: 1;
+  gap: 100px;
+  list-style-type: none;
+}
+
+.packed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .menu {
+    display: block;
+  }
+}
+button {
+  background: none;
+  border: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}
